@@ -1,0 +1,436 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+.margen {
+  padding: 15px;
+}
+.centrar {
+  text-align: center;
+}
+
+.contenedor_cabecera {
+  padding: 7px;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  border-top: 15px solid #42a8b2;
+}
+.contenedor_logo {
+  border: 2px solid orange;
+  width: 450px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.contenedor_logo img {
+  width: 400px;
+}
+.contenedor_menu {
+  border: 3px red solid;
+  padding: 15px;
+  width: 680px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+.contenedor_menu a {
+  text-decoration: none;
+  padding: 12px 15px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  font-size: 16px;
+  margin-right: 40px;
+}
+
+.contenedor_menu a:hover {
+  font-weight: bold;
+  color: white;
+  background-color: #42a8b2;
+}
+.contenedor_menu a:last-child {
+  margin-right: 0px;
+}
+
+.contenedor_imagen {
+  background-image: url("images/foto_slide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1200px;
+  margin: auto;
+  height: 450px;
+  text-align: center;
+}
+.tituloprincipal {
+  padding-top: 50px;
+  font-size: 35px;
+  color: white;
+  font-weight: 300;
+}
+.parrafo {
+  padding-top: 10px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.contenedor_formulario {
+  width: 1200px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  background-color: #f8f9fa;
+}
+
+.contenedor_input {
+  padding: 15px;
+  border: 2px solid green;
+  width: 1000px;
+  display: inline-block;
+  vertical-align: top;
+}
+.contenedor_input input {
+  width: 27%;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.contenedor_input select {
+  width: 27%;
+  margin-right: 15px;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+.contenedor_input button {
+  background-color: #ff6000;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+  width: 12%;
+  cursor: pointer;
+  border: 1px solid #ff6000;
+}
+
+.contenedor_verde {
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  border: 2px red solid;
+  background-color: #ade3e9;
+}
+
+.contenedor_tarjeta {
+  width: 320px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 40px;
+  background-color: white;
+  height: 350px;
+}
+.contenedor_tarjeta img {
+  width: 80px;
+  padding-bottom: 10px;
+}
+
+.contenedor_tarjeta h3 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1;
+}
+.contenedor_tarjeta p {
+  font-size: 20px;
+  padding: 0 40px;
+}
+.contenedor_quienes {
+  width: 1200px;
+  border: 1px red solid;
+  margin: auto;
+  text-align: center;
+}
+.contenedor_img {
+  border: 1px red solid;
+  width: 450px;
+  margin: auto;
+  vertical-align: top;
+  display: inline-block;
+}
+.contenedor_img img {
+  width: 430px;
+}
+.contenedor_info {
+  border: 1px red solid;
+  width: 600px;
+  margin: auto;
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+}
+.titulosecundario {
+  margin-top: 10px;
+  color: #42a8b2;
+  font-size: 35px;
+  font-weight: bold;
+}
+.hr_izq {
+  width: 50px; /* ancho de la línea */
+  height: 3px; /* grosor de la línea */
+  background-color: #f761b4; /* color naranja */
+  border: none;
+}
+.parrafo1 {
+  font-weight: bold;
+}
+.lista-personalizada {
+  list-style-type: square; /* Viñetas cuadradas */
+  padding-left: 30px; /* Espacio para que la lista no se pegue al borde */
+  max-width: 100%; /* Para que no se salga del contenedor */
+  box-sizing: border-box; /* Para que el padding no aumente el ancho */
+}
+.lista-personalizada li::marker {
+  font-size: 24px;
+  color: #d4af37; /* Color dorado solo para viñetas */
+}
+.parrafo2 {
+  color: #42a8b2;
+  font-weight: bold;
+}
+.contenedor_tres {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  border: 2px red solid;
+}
+.contenedor_que {
+  padding: 10px;
+  border: 2px #c6c6c6 solid;
+  width: 380px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 5px;
+  background-color: white;
+  text-align: left;
+  height: 380px;
+}
+.contenedor_img2 {
+  border: 2px #c6c6c6 solid;
+  width: 380px;
+  vertical-align: top;
+  display: inline-block;
+  background-color: #c6c6c6;
+  text-align: center;
+  height: 380px;
+}
+.contenedor_img2 img {
+  margin-top: 50px;
+  width: 350px;
+}
+.contenedor_como {
+  padding: 10px;
+  border: 2px #c6c6c6 solid;
+  width: 380px;
+  margin: 0 5px;
+  vertical-align: top;
+  display: inline-block;
+  background-color: white;
+  text-align: left;
+  height: 380px;
+}
+
+.contenedor_video {
+  border: 2px red solid;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+}
+.video_tragora {
+  border: 2px red solid;
+  width: 550px;
+  padding: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: left;
+  margin-right: 20px;
+}
+.video {
+  width: 100%;
+  height: 340px;
+  border-radius: 10px;
+}
+.contenedor_contactanos {
+  width: 550px;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px red solid;
+  text-align: left;
+  padding: 10px;
+}
+.contenedor_contactanos input {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 30px;
+}
+.contenedor_contactanos textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  height: 200px;
+  font-family: Helvetica;
+  overflow: hidden; /* Oculta las barras de scroll */
+  resize: none;
+}
+.contenedor_contactanos button {
+  background-color: #42a8b2;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  width: 18%;
+  cursor: pointer;
+  border: 1px solid #42a8b2;
+}
+.contenedor_precios {
+  border: 2px red solid;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+}
+.contenedor_titulo {
+  text-align: center;
+}
+.tabla {
+  width: 1100px;
+  margin: auto;
+  border: 2px #333 solid;
+  text-align: center;
+  border-spacing: 5px;
+}
+.tabla th {
+  background-color: #ade3e9;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px #333 solid;
+}
+.tabla td {
+  border: 2px #333 solid;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold;
+}
+.fondogris {
+  background-color: #c6c6c6;
+}
+.btn-rosa {
+  background-color: #f761b4;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 24px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hr_ctr {
+  width: 50px; /* ancho de la línea */
+  height: 3px; /* grosor de la línea */
+  background-color: #f761b4; /* color naranja */
+  border: none;
+  margin: auto;
+}
+.contenedor_telefono {
+  width: 1200px;
+  text-align: center;
+  background-color: #c6c6c6;
+  margin: auto;
+  padding: 20px;
+}
+.contenedor_dudas {
+  width: 300px;
+  text-align: left;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px red solid;
+}
+.contenedor_numero {
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 50px;
+  border: 2px red solid;
+}
+.contenedor_realizamos {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  border: 2px red solid;
+}
+
+.parrafo3 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.parrafo4 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contenedor_final {
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  background-color: #42a8b2;
+}
+.parrafo5 {
+  color: white;
+}
+.contenedor_nombre {
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  background-color: #12182d;
+}
+
+.contenedor_nombre p {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
